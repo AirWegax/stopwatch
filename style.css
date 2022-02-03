@@ -1,0 +1,82 @@
+body {
+    font-family: 'Inconsolata', monospace;
+    text-align: center;
+    margin: 250px auto;
+}
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+.btn {
+    font-size: 50px;
+    background-color: #f0f0f0;
+    padding: 10px 16px 10px 16px;
+    margin: 10px;
+}
+.btn:hover {
+    background-color: #000;
+    color: #fff;
+}
+#stopwatch {
+    font-size: 80px;
+}
+
+@media screen and (max-width: 600px) {
+    .btn {
+        font-size: 42px;
+        background-color: #f0f0f0;
+        padding: 10px 16px 10px 16px;
+        margin: 10px;
+    }
+    #stopwatch {
+        font-size: 72px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .btn {
+        font-size: 42px;
+        background-color: #f0f0f0;
+        padding: 10px 16px 10px 16px;
+        margin: 10px;
+    }
+    #stopwatch {
+        font-size: 72px;
+    }
+}
+@media screen and (max-width: 530px) {
+    .btn {
+        font-size: 34px;
+        background-color: #f0f0f0;
+        padding: 10px 16px 10px 16px;
+        margin: 10px;
+    }
+    #stopwatch {
+        font-size: 64px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .btn {
+        font-size: 28px;
+        background-color: #f0f0f0;
+        padding: 10px 16px 10px 16px;
+        margin: 10px;
+    }
+    #stopwatch {
+        font-size: 58px;
+    }
+}
+@media screen and (max-width: 410px) {
+    .btn {
+        font-size: 24px;
+        background-color: #f0f0f0;
+        padding: 10px 16px 10px 16px;
+        margin: 10px;
+    }
+    #stopwatch {
+        font-size: 54px;
+    }
+}
